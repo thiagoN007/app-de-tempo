@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo agora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <h2>Tempo agora em</h2>
+                <input type="text" id="cidade" placeholder="Nome da cidade">
+                <input type="button" onclick="buscar()" value="Buscar 🔍">
+                <div class="dados">
+                    <p>Informações:</p>
+                    <h1 class="cidade"></h1><br>
+                    <h4 class="graus"></h4>
+                    <h4 class="grau_max"></h4>
+                    <h4 class="umidade"></h4>
+                    <h4 class="tempo"></h4>
+                </div>
+                <h5>Desenvolvido por Thiago</h5>
+            </div>
+        </section>
+    </main>
+    <script src="script.js" defer></script>
+</body>
+</html>

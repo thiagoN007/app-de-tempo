@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("/imagers/ensolarado.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    animation-name: alter;
+    animation: alter alternate-reverse infinite 5s ease-in-out;
+    backdrop-filter: blur(2px);
+    overflow: hidden;
+}
+
+
+@keyframes alter {
+    25%{
+        background-image: url("/imagers/ensolarado.jpg");
+    }
+    50%{
+        background-image: url("/imagers/nublado.jpg");
+    }
+    100%{
+        background-image: url("/imagers/chuva.jpg");
+    }
+}
+
+.container{
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    flex-direction: column;
+    max-width: 500px;
+    padding: 70px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.container input[type="text"] {
+    padding: 9px;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 5px;
+    border: 0;
+    background-color: #ffffff;
+    width: 100%;
+    color: #2c2c2c;
+    text-transform: capitalize;
+
+}
+
+.container input[type="text"]::placeholder{
+    color: #2c2c2c;
+    margin-right: 15px;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f7f7f7;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: start;
+}
+
+.container input[type="button"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    outline: none;
+    border: 0;
+    background: #ffffff;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.container input[type="button"]:hover{
+    background: #313131;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+
+.dados h4 {
+    color:#2c2c2c;
+}
+
+p{
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+
+.cidade {
+    color: #2c2c2c;
+}
+
+h5 {
+    text-align: center;
+    margin: 15px auto;
+    font-size: 11px;
+    color: #f7f7f7;
+    margin-bottom: 0;
+}
