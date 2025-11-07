@@ -11,11 +11,13 @@
     <main>
         <section>
             <div class="container">
-                <h2>Tempo agora em</h2>
-                <input type="text" id="cidade" placeholder="Nome da cidade">
-                <input type="button" onclick="buscar()" value="Buscar 🔍">
+                <h2>Tempo agora</h2>
+                <p class="sub-p">Visualize o tempo em sua cidade!</p>
+                <input type="text" id="cidade" placeholder="nome da cidade">
+                <input type="button" onclick="buscar()" value="Buscar">
                 <div class="dados">
                     <p>Informações:</p>
+                    <p class="validate"></p>
                     <h1 class="cidade"></h1><br>
                     <h4 class="graus"></h4>
                     <h4 class="grau_max"></h4>

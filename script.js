@@ -1,6 +1,16 @@
 let key = "eca3250ca768b6721c13c3da57714354";
 async function buscar() {
+    
     const cidade = document.getElementById("cidade").value;
+
+    if(cidade == "") {
+        document.getElementById("cidade");
+        document.getElementById("cidade").focus();
+        return ;
+    }
+
+    document.getElementById("cidade").value = "";
+
     await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&lang=pt_br&appid=${key}&units=metric`)
     .then(res => res.json())
     .then(dado => {
@@ -17,10 +27,6 @@ async function buscar() {
         console.error("Erro na requisição da api", error)
     });
 
-    if(cidade == "") {
-        alert("Digite o nome da cidade");
-        return 0;
-    }
-
     document.getElementById("cidade").value = "";
 }
+
