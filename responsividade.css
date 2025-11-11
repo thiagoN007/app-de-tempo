@@ -7,7 +7,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     flex-direction: column;
-    max-width: 500px;
+    max-width: 550px;
     padding: 70px;
     border-radius: 10px;
     border: 2px solid #ddd;
@@ -22,7 +22,7 @@
 }
 
 .container input[type="text"] {
-    width: 100%;
+    width: 80%;
     padding: 13px;
     border-radius: 20px;
     outline: none;
@@ -53,24 +53,24 @@
     text-align: start;
 }
 
-.container input[type="button"] {
-    width: 100%;
-    padding: 13px;
-    margin-bottom: 10px;
+.container button { 
+    padding: 10px;
+    margin-bottom: 15px;
     border-radius: 20px;
     outline: none;
     border: 0;
-    background: #2c2c2c;
-    font-weight: 700;
+    float:right;
     transition: 0.3s ease;
-    color: #ffffff;
-    font-size: 16px;
+    width: 18%;
+    margin-right: auto;
 }
 
-.container input[type="button"]:hover{
-    background-color: #ffffff;
-    color: #2c2c2c;
+.container button:hover{
     cursor: pointer;
+}
+
+i{
+    font-size: 18px;
 }
 
 }

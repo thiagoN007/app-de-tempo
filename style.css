@@ -36,36 +36,35 @@ body{
 }
 
 .container{
+    width: 100%;
     background: transparent;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    flex-direction: column;
-    max-width: 500px;
-    padding: 70px;
+    max-width:560px;
+    padding: 90px;
     border-radius: 10px;
     border: 2px solid #ddd;
 }
 
 .container h2 {
-    font-size:30px;
+    font-size:36px;
     text-align: center;
     margin-bottom: 15px;
     color: #ffffff;
 }
 
 .container input[type="text"] {
-    padding: 12px;
+    width: 80%;
+    padding: 13px;
     border-radius: 20px;
     outline: none;
     margin-bottom: 5px;
     border: 0;
     background-color: #ffffff;
-    width: 100%;
     color: #2c2c2c;
     text-transform: capitalize;
-
 }
 
 .container input[type="text"]::placeholder{
@@ -74,6 +73,7 @@ body{
 }
 
 .dados {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,28 +85,51 @@ body{
     text-transform: capitalize;
 }
 
-.container input[type="button"] {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 5px;
+.container button { 
+    padding: 10px;
+    margin-bottom: 15px;
     border-radius: 20px;
     outline: none;
     border: 0;
-    background-color:#313131;
-    color: #ffffff;
-    font-weight: 700;
-    transition: 0.3s ease-in-out;
-    font-family: 18px;
+    float:right;
+    transition: 0.3s ease;
+    width: 15%;
+    margin-right: 1px;
 }
 
-.container input[type="button"]:hover{
-    background: #f7f7f7;
-    color:#2c2c2c;
+.container button:hover{
     cursor: pointer;
 }
 
-.dados h4 {
-    color:#2c2c2c;
+.graus{
+    font-size: 24px;
+    color: rgb(78, 78, 78);
+}
+
+.sensacao {
+    font-size: 18px;
+    color: rgb(78, 78, 78);
+}
+
+.umidade {
+    font-size: 16px;
+    color: rgb(78, 78, 78);
+}
+
+.tempo {
+    font-size: 14px;
+    color: rgb(78, 78, 78);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    background: #fffb0b;
+    border-radius: 20px;
 }
 
 p{
@@ -124,4 +147,8 @@ h5 {
     font-size: 11px;
     color: #f7f7f7;
     margin-bottom: 0;
+}
+
+i {
+    font-size: 20px;
 }
