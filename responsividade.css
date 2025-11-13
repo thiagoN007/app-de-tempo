@@ -108,4 +108,8 @@ p{
     gap: 5px;
 }
 
+body {
+    overflow: hidden;
+}
+
 }
