@@ -15,9 +15,10 @@
 
     .container h2 {
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 15px;
     color: #000000;
-    font-size: 2.3em;
+    font-size: 1.5em;
 }
 
 .container input[type="text"] {
@@ -50,7 +51,7 @@
     font-style: italic;
     text-transform: capitalize;
     text-align: start;
-    box-shadow: 10px 10px 10px #969494;
+    box-shadow: 5px 5px 5px 5px #cec7c7;
 }
 
 .container button { 
@@ -82,13 +83,30 @@ p{
 
 .cidade {
     color: rgb(0, 0, 0);
-    font-size: 2.3em;
+    font-size: 2em;
 }
 
 .graus{
     font-size: 16px;
     font-style: italic;
     color: rgb(0, 0, 0);
+}
+
+.p-universal {
+    width: 80vw;
+    background: #000;
+    padding: 8px;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 11px;
+}
+
+.sub-p {
+    font-size: 13px;
 }
 
 .sensacao {
@@ -102,7 +120,7 @@ p{
 }
 
 .tempo {
-    font-size: 14px;
+    font-size: 1px;
     color: rgb(0, 0, 0);
     text-align: center;
     display: flex;
