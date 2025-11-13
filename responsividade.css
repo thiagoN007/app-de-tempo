@@ -16,8 +16,8 @@
     .container h2 {
     text-align: center;
     margin-bottom: 15px;
-    color: #ffffff;
-    font-size: 2.5em;
+    color: #000000;
+    font-size: 2.3em;
 }
 
 .container input[type="text"] {
@@ -27,12 +27,12 @@
     outline: none;
     margin-bottom: 5px;
     border: 0;
-    background-color: #ffffff;
+    background-color: #000000;
 
 }
 
 .container input[type="text"]::placeholder{
-    color: #5c5c5c;
+    color: #bebebe;
     font-size: 16px;
 
 }
@@ -43,13 +43,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:#1a1919;
+    background-color:#fff;
     border-radius: 15px;
     padding: 35px;
     color: #fff;
     font-style: italic;
     text-transform: capitalize;
     text-align: start;
+    box-shadow: 10px 10px 10px #969494;
 }
 
 .container button { 
@@ -62,6 +63,7 @@
     transition: 0.3s ease;
     width: 18%;
     margin-right: auto;
+    background: #000;
 }
 
 .container button:hover{
@@ -73,35 +75,35 @@ i{
 }
 
 p{
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 15px;
     font-style: italic;
 }
 
 .cidade {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 2.3em;
 }
 
 .graus{
     font-size: 16px;
     font-style: italic;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .sensacao {
     font-size: 16px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .umidade {
     font-size: 16px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .tempo {
     font-size: 14px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     display: flex;
     align-items: center;
