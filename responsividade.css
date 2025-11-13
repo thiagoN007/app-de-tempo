@@ -9,8 +9,7 @@
     flex-direction: column;
     max-width: 550px;
     padding: 70px;
-    border-radius: 10px;
-    border: 2px solid #ddd;
+    border: none;
     padding: 50px 5%;
 }
 
@@ -18,7 +17,7 @@
     text-align: center;
     margin-bottom: 15px;
     color: #ffffff;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .container input[type="text"] {
@@ -79,10 +78,11 @@ p{
 
 .cidade {
     color: rgb(255, 255, 255);
+    font-size: 2em;
 }
 
 .graus{
-    font-size: 18px;
+    font-size: 16px;
     font-style: italic;
     color: rgb(255, 255, 255);
 }
@@ -98,7 +98,7 @@ p{
 }
 
 .tempo {
-    font-size: 13px;
+    font-size: 14px;
     color: rgb(255, 255, 255);
     text-align: center;
     display: flex;

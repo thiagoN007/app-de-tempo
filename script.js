@@ -11,8 +11,8 @@ async function buscar(cidadePadrao) {
     .then(dado => {
         console.log(dado)
         document.querySelector('.cidade').innerHTML = `${dado.name}`;
-        document.querySelector('.graus').innerHTML = `Temperatura: ${dado.main.temp.toFixed(0)}°C`;
-        document.querySelector('.sensacao').innerHTML = `Sensação de: ${dado.main.feels_like.toFixed(0)}°C`;
+        document.querySelector('.graus').innerHTML = `Temperatura: ${dado.main.temp.toFixed(0)} °C`;
+        document.querySelector('.sensacao').innerHTML = `Sensação térmica: ${dado.main.feels_like = Math.floor(dado.main.feels_like)} °C`;
         document.querySelector('.umidade').innerHTML = `Umidade: ${dado.main.humidity}%`;
         document.querySelector('.tempo').innerHTML = `${dado.weather[0].description} <img src='https://openweathermap.org/img/wn/${dado.weather[0].icon}.png'>`;
     })
@@ -25,6 +25,6 @@ async function buscar(cidadePadrao) {
 // buscarcidade padrão ao carregar a página Ex.: Uniao, teresina
 
 window.onload = function() {
-    buscar("Uniao");
+    buscar("União");
 }
 
