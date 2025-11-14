@@ -64,7 +64,6 @@ body{
     padding: 12px;
     border-radius: 20px;
     outline: none;
-    margin-bottom: 30px;
     border: 0;
     background-color: #000000;
     color: #ffffff;
@@ -87,7 +86,6 @@ body{
     color: #fff;
     font-style: italic;
     text-transform: capitalize;
-    box-shadow: 5px 5px 5px #969494;
 }
 
 .container button { 
