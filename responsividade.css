@@ -11,8 +11,7 @@
     max-height: 700px;
     padding: 50px;
     border: none;
-    padding: 50px 35px;
-    border: 2px solid #fff;
+    padding: 50px 30px;
     border-radius: 20px;
 }
 
@@ -58,7 +57,7 @@ body {
     font-style: italic;
     text-transform: capitalize;
     text-align: start;
-    padding: 60px 30px;
+    padding: 50px 30px;
     
 }
 
@@ -98,7 +97,7 @@ h5 {
 
 .cidade {
     color: rgb(255, 255, 255);
-    font-size: 2.5em;
+    font-size: 2.1rem;
 }
 
 .graus{
