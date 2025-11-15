@@ -23,12 +23,12 @@
       "is192x192": false
     },
     {
-      "src": "images/lupa.png",
+      "src": "images/logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "images/lupa.png",
+      "src": "images/logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
