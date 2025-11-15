@@ -1,0 +1,38 @@
+{
+  "background_color": "#09b1db",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Tempo agora",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "tempoagr.netlify",
+  "start_url": "/",
+  "theme_color": "#09b1db",
+  "icons": [
+    {
+      "src": "https://tempoagr.netlify.app/imagers/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "1024x1024",
+      "isSquare": true,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 1024,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    },
+    {
+      "src": "images/lupa.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/lupa.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "id": "Tempo agora",
+  "description": "Tempo agora, um simples site/app para visualizar o tempo de qualquer cidade apenas informando o seu nome, simples e prático."
+}
