@@ -36,6 +36,8 @@ body {
     border: 0;
     background-color: #ffffff;
     color: #000;
+    box-shadow: 4px 4px;
+
 
 }
 
@@ -74,6 +76,7 @@ body {
     margin-right: auto;
     background: #ffffff;
     color: #000;
+    box-shadow: 4px 4px;
 }
 
 .container button:hover{
@@ -92,12 +95,13 @@ p{
 
 h5 {
     color: #ffffff;
-    margin-top: -30px;
+    margin-top: -40px;
 }
 
 .cidade {
     color: rgb(255, 255, 255);
-    font-size: 2.1rem;
+    font-size: 2.5rem;
+    font-style: italic;
 }
 
 .graus{
@@ -116,7 +120,8 @@ h5 {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    font-size: 16px;
+    font-size: 17px;
+    margin-top: 7px;
 }
 
 .sub-p {

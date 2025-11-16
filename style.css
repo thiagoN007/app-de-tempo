@@ -55,6 +55,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5px;
 }
 
 
@@ -67,6 +68,7 @@ body{
     background-color: #ffffff;
     color: #414141;
     text-transform: capitalize;
+    box-shadow: 4px 4px;
 }
 
 .container input[type="text"]::placeholder{
@@ -99,6 +101,7 @@ body{
     margin-right: 1px;
     background: #ffffff;
     color: #000000;
+    box-shadow: 4px 4px;
 }
 
 .container button:hover{
