@@ -23,12 +23,12 @@
       "is192x192": false
     },
     {
-      "src": "images/logo.png",
+      "src": "images/logo.jpg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "images/logo.png",
+      "src": "images/logo.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }
