@@ -28,7 +28,7 @@ body {
 }
 
 .container input[type="text"] {
-    width: 80%;
+    width: 78%;
     padding: 13px;
     border-radius: 20px;
     outline: none;
@@ -42,7 +42,7 @@ body {
 }
 
 .container input[type="text"]::placeholder{
-    color: #202020;
+    color: #5e5e5e;
     font-size: 16px;
 
 }
@@ -65,7 +65,7 @@ body {
 
 
 .container button { 
-    padding: 10px;
+    padding: 11px;
     margin-bottom: 15px;
     border-radius: 20px;
     outline: none;
@@ -73,10 +73,10 @@ body {
     float:right;
     transition: 0.3s ease;
     width: 18%;
-    margin-right: auto;
+    margin-left: 4px;
     background: #ffffff;
     color: #000;
-    box-shadow: 4px 4px;
+    box-shadow: 5px;
 }
 
 .container button:hover{
@@ -90,6 +90,7 @@ i{
 p{
     color: #ffffff;
     margin-bottom: 5px;
+    font-weight: 600;
     font-style: italic;
 }
 
@@ -100,7 +101,7 @@ h5 {
 
 .cidade {
     color: rgb(255, 255, 255);
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     font-style: italic;
 }
 
@@ -125,7 +126,7 @@ h5 {
 }
 
 .sub-p {
-    font-size: 13px;
+    font-size: 14px;
     color: #ffffff;
 }
 
@@ -150,7 +151,7 @@ h5 {
 
 .container #sol {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 

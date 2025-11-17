@@ -1,5 +1,5 @@
 {
-  "background_color": "#09b1db",
+  "background_color": "#0000",
   "dir": "ltr",
   "display": "standalone",
   "name": "Tempo agora",
@@ -7,7 +7,7 @@
   "scope": "/",
   "short_name": "Tempo Agora",
   "start_url": "/",
-  "theme_color": "#09b1db",
+  "theme_color": "#0000",
   "icons": [
     {
       "src": "https://tempoagr.netlify.app/imagers/favicon.ico",
