@@ -10,7 +10,7 @@
   "theme_color": "#000",
   "icons": [
     {
-      "src": "https://tempoagr.netlify.app/imagers/favicon.ico",
+      "src": "https://tempoagr.netlify.app/images/favicon.ico",
       "type": "image/x-icon",
       "sizes": "1024x1024",
       "isSquare": true,

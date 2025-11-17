@@ -26,6 +26,7 @@ async function buscar(cidadePadrao) {
         console.error("Erro na requisição da api", error) //exibe o erro de requisicao
     });
 
+
 }
 
 // buscarcidade padrão ao carregar a página Ex.: Uniao, teresina
