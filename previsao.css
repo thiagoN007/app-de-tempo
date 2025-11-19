@@ -113,8 +113,8 @@ i {
     left: 50%;
     transform: translate(-50%,-50%);
     border: 1px solid #ffffff;
-    padding:50px;
-    max-width: 330px;
+    padding:50px 25px;
+    max-width: 400px;
     border-radius: 20px;
     background: #09b1db;
     border: none;
