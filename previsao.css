@@ -107,14 +107,14 @@ i {
 @media (max-width: 768px) {
     
 .container {
-    width: 100%;
+    width: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     border: 1px solid #ffffff;
-    padding:50px 25px;
-    max-width: 400px;
+    padding:50px;
+    max-width: 410px;
     border-radius: 20px;
     background: #09b1db;
     border: none;
@@ -148,6 +148,7 @@ body {
 }
 
 .container button {
+    width: 100%;
     padding: 9px;
     margin-top: 20px;
     margin-bottom: 15px;
