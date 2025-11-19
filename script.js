@@ -19,7 +19,8 @@ async function buscar(cidadePadrao) {
         document.querySelector('.sensacao').innerHTML = `<p class="p-universal">Sensação Térmica: ${dado.main.feels_like = Math.floor(dado.main.feels_like)} °C </p>`;
         document.querySelector('.umidade').innerHTML = `<p class="p-universal">Umidade: ${dado.main.humidity}%</p>`;
         document.querySelector('.tempo').innerHTML = `<p class="p-universal">${dado.weather[0].description} 
-        <img src='https://openweathermap.org/img/wn/${dado.weather[0].icon}.png'></p>`;
+        <img src='https://openweathermap.org/img/wn/${dado.weather[0].icon}.png'></p> <br>`;
+        
 
     })
     .catch(error => {
