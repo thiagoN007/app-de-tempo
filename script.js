@@ -14,12 +14,13 @@ async function buscar(cidadePadrao) {
             return;
         }
         console.log(dado)
+
         document.querySelector('.cidade').innerHTML = `${dado.name}`;
-        document.querySelector('.graus').innerHTML = `<p class="p-universal">Temperatura: ${dado.main.temp.toFixed(0)} °C</p>`;
-        document.querySelector('.sensacao').innerHTML = `<p class="p-universal">Sensação Térmica: ${dado.main.feels_like = Math.floor(dado.main.feels_like)} °C </p>`;
-        document.querySelector('.umidade').innerHTML = `<p class="p-universal">Umidade: ${dado.main.humidity}%</p>`;
-        document.querySelector('.tempo').innerHTML = `<p class="p-universal">${dado.weather[0].description} 
-        <img src='https://openweathermap.org/img/wn/${dado.weather[0].icon}.png'></p> <br>`;
+        document.querySelector('.graus').innerHTML = `Temperatura: ${dado.main.temp.toFixed(0)} °C`;
+        document.querySelector('.sensacao').innerHTML = `Sensação Térmica: ${dado.main.feels_like = Math.floor(dado.main.feels_like)} °C`;
+        document.querySelector('.umidade').innerHTML = `Umidade: ${dado.main.humidity}%`;
+        document.querySelector('.tempo').innerHTML = `${dado.weather[0].description} 
+        <img src='https://openweathermap.org/img/wn/${dado.weather[0].icon}.png'><br>`;
         
 
     })
