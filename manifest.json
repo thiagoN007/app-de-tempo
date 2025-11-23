@@ -1,5 +1,5 @@
 {
-  "background_color": "#09b1db",
+  "background_color": "#1757bc",
   "dir": "ltr",
   "display": "standalone",
   "name": "Tempo agora",
@@ -7,7 +7,7 @@
   "scope": "/",
   "short_name": "Tempo Agora",
   "start_url": "/",
-  "theme_color": "#09b1db",
+  "theme_color": "#1757bc",
   "icons": [
     {
       "src": "https://tempoagr.netlify.app/images/favicon.ico",
@@ -23,13 +23,13 @@
       "is192x192": false
     },
     {
-      "src": "images/logo.jpg?=12",
+      "src": "images/logo.jpg?=13",
       "type": "image/png",
       "purpose": "any maskable",
       "sizes": "192x192"
     },
     {
-      "src": "images/logo.jpg?=12",
+      "src": "images/logo.jpg?=13",
       "type": "image/png",
       "sizes": "512x512"
     }

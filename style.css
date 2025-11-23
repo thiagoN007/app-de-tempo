@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #09b1db;
+    background-color: #1757bc;
     overflow: hidden;
 }
 
@@ -20,7 +20,6 @@ body{
     padding: 30px;
     border-radius: 10px;
     border: 2px solid #ffffff;
-    background: #09b1db;
 }
 
 .container h2 {
@@ -67,9 +66,8 @@ body{
 .dados {
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    background-color:#09b1db;
+    flex-direction: column;
     border-radius: 20px;
     padding: 20px;
     color: #fff;
@@ -78,15 +76,11 @@ body{
 
 
 .informacoes {
-    width: 100%;
-    background: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 15px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    gap:2em;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 .container button { 
@@ -108,49 +102,57 @@ body{
     cursor: pointer;
 }
 
+.cidade {
+    color: #ffffff;
+    font-size: 2.1rem;
+    margin-bottom: -20px;
+}
 
 .graus{
     font-size: 25px;
 }
 
 .sensacao {
-    font-size: 20px;
-    color:  rgb(102, 106, 107);
+    font-size: 25px;
+    color:  rgb(255, 255, 255);
 }
 
 .umidade {
-    font-size: 20px;
-    color:  rgb(102, 106, 107);
+    font-size: 25px;
+    color:  rgb(255, 255, 255);
 }
 
 .tempo {
-    font-size: 18px;
-    color:  rgb(102, 106, 107);
+    font-size: 13px;
+    color:  rgb(255, 255, 255);
     text-align: center;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 2px;
+    margin-bottom: 15px;
+}
+
+.p {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
 }
 
 img {
-    width: 28px;
-    height: 28px;
+    width: 18px;
+    height: 18px;
     border-radius: 20px;
     
 }
 
 p{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 15px;
     font-style: italic;
     font-weight: 600;
     color: #ffffff;
 }
 
-.cidade {
-    color: #ffffff;
-    font-size: 2.1rem;
-}
 
 h5 {
     text-align: center;
@@ -166,8 +168,8 @@ i {
 }
 
 .bi-arrow-right-circle-fill{
-    font-size: 18px;
-    color: #09b1db;
+    font-size: 21px;
+    color: #1757bc;
 }
 
 .dados .btn-prev {
@@ -175,7 +177,7 @@ i {
     background: #ffffff;
     padding: 10px;
     border-radius: 20px;
-    color: #000000;
+    color: #1757bc;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -184,13 +186,16 @@ i {
     font-weight: 600;
     cursor: pointer;
     transition:  0.3s ease;
+
 }
 
 .dados .btn-prev a {
     text-decoration: none;
-    color: #000000;
+    color: #1757bc;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .dados .btn-prev:hover {
-    background: rgb(209, 199, 199);
+    background: #ecebeb;
 }

@@ -16,18 +16,18 @@ async function buscar(cidadePadrao) {
         console.log(dado)
 
         document.querySelector('.cidade').innerHTML = `${dado.name}`;
-        document.querySelector('.graus').innerHTML = `Temperatura: ${dado.main.temp.toFixed(0)} °C`;
-        document.querySelector('.sensacao').innerHTML = `Sensação Térmica: ${dado.main.feels_like = Math.floor(dado.main.feels_like)} °C`;
-        document.querySelector('.umidade').innerHTML = `Umidade: ${dado.main.humidity}%`;
         document.querySelector('.tempo').innerHTML = `${dado.weather[0].description} 
         <img src='https://openweathermap.org/img/wn/${dado.weather[0].icon}.png'><br>`;
+
+        document.querySelector('.graus').innerHTML = `<p class="p">Temperatura<br></p>${dado.main.temp.toFixed(0)} °C`;
+        document.querySelector('.sensacao').innerHTML = `<p class="p">Sensação<br></p>${dado.main.feels_like = Math.floor(dado.main.feels_like)} °C`;
+        document.querySelector('.umidade').innerHTML = `<p class="p">Umidade<br></p>${dado.main.humidity}%`;
         
 
     })
     .catch(error => {
         console.error("Erro na requisição da api", error) //exibe o erro de requisicao
     });
-
 
 }
 

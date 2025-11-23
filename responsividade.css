@@ -16,7 +16,7 @@
 }
 
 body {
-    background: #09b1db;
+    background:#1757bc;
 }
 
     .container h2 {
@@ -53,7 +53,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #09b1db;
     padding: 35px;
     color: #fff;
     font-style: italic;
@@ -64,16 +63,11 @@ body {
 }
 
 .informacoes {
-    width: 90vw;
-    height: 150px;
-    background: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 15px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    gap:2em;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .container button { 
@@ -128,27 +122,27 @@ p{
     font-size: 11px;
     color: #ffffff;
     margin-bottom: 50px;
-    line-height: 1px;
+    line-height: 10px;
 }
 
 .graus{
     font-size: 18px;
-    color:  rgb(102, 106, 107);
+    color:  #ffffff;
 }
 
 .sensacao {
-    font-size: 13px;
-    color:  rgb(102, 106, 107);
+    font-size: 18px;
+    color:  #ffffff;
 }
 
 .umidade {
-    font-size: 16px;
-    color:  rgb(102, 106, 107);
+    font-size: 18px;
+    color: #ffffff;
 }
 
 .tempo {
     font-size: 13px;
-    color:  rgb(102, 106, 107);
+    color:  #ffffff;
     text-align: center;
     display: flex;
     align-items: center;
@@ -161,11 +155,11 @@ p{
 }
 
 .dados .btn-prev {
-    width: 90vw;
+    width: 80vw;
     background: #ffffff;
     padding: 10px;
     border-radius: 20px;
-    color: #000000;
+    color: #1757bc;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,12 +171,12 @@ p{
 
 .dados .btn-prev a {
     text-decoration: none;
-    color: #000000;
+    color: #1757bc;
     font-size: 20px;
 }
 
 .dados .btn-prev:hover {
-    background: rgb(145, 145, 145);
+    background: #ecebeb;
 }
 
 
