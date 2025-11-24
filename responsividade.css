@@ -108,7 +108,7 @@ p{
 
 .cidade {
     color: rgb(255, 255, 255);
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     font-style: italic;
     margin-bottom: 0 auto;
 }
@@ -148,18 +148,18 @@ p{
 }
 
 .umid {
-    font-size: 11px; /*titulo*/
+    font-size: 13px; /*titulo*/
     text-align: center;
 }
 
 .graus {
-    font-size: 21px; /*Numero em °C*/
+    font-size: 25px; /*Numero em °C*/
     text-align: center;
     color: #ffffff;
 }
 
 .sensa{
-    font-size: 11px;/*titulo*/
+    font-size: 13px;/*titulo*/
     text-align: center;
 }
 
