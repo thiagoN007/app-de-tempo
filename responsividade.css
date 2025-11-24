@@ -137,13 +137,13 @@ p{
     gap: 2px;
 }
 
-.temp {
-    font-size: 11px;
+.tempe{
+    font-size: 13px;
     text-align: center;
 }
 
 .sensacao {
-    font-size: 20px; /* Numero em °C*/
+    font-size: 22px; /* Numero em °C*/
     text-align: center;
 }
 
@@ -153,7 +153,7 @@ p{
 }
 
 .graus {
-    font-size: 25px; /*Numero em °C*/
+    font-size: 22px; /*Numero em °C*/
     text-align: center;
     color: #ffffff;
 }
@@ -164,7 +164,7 @@ p{
 }
 
 .umidade {
-    font-size: 18px; /*Numero em °C*/
+    font-size: 20px; /*Numero em °C*/
     text-align: center;
 }
 
