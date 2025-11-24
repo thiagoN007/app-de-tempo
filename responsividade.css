@@ -143,7 +143,7 @@ p{
 }
 
 .sensacao {
-    font-size: 21px; /* Numero em °C*/
+    font-size: 20px; /* Numero em °C*/
     text-align: center;
 }
 
@@ -164,7 +164,7 @@ p{
 }
 
 .umidade {
-    font-size: 21px; /*Numero em °C*/
+    font-size: 18px; /*Numero em °C*/
     text-align: center;
 }
 
