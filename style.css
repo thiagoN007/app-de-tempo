@@ -132,9 +132,18 @@ body{
     margin-bottom: 15px;
 }
 
-.p {
-    font-size: 12px;
-    font-style: italic;
+.temp {
+    font-size: 18px;
+    text-align: center;
+}
+
+.sensacao {
+    font-size: 18px;
+    text-align: center;
+}
+
+.umid {
+    font-size: 18px;
     text-align: center;
 }
 

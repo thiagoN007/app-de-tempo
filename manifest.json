@@ -23,13 +23,13 @@
       "is192x192": false
     },
     {
-      "src": "images/logo.jpg?=13",
+      "src": "images/logo.jpg?=14",
       "type": "image/png",
       "purpose": "any maskable",
       "sizes": "192x192"
     },
     {
-      "src": "images/logo.jpg?=13",
+      "src": "images/logo.jpg?=14",
       "type": "image/png",
       "sizes": "512x512"
     }
