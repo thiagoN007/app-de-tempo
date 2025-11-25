@@ -132,18 +132,34 @@ body{
     margin-bottom: 15px;
 }
 
-.temp {
-    font-size: 18px;
+.tempe{
+    font-size: 13px;
     text-align: center;
 }
 
 .sensacao {
-    font-size: 18px;
+    font-size: 22px; /* Numero em °C*/
     text-align: center;
 }
 
 .umid {
-    font-size: 18px;
+    font-size: 13px; /*titulo*/
+    text-align: center;
+}
+
+.graus {
+    font-size: 22px; /*Numero em °C*/
+    text-align: center;
+    color: #ffffff;
+}
+
+.sensa{
+    font-size: 13px;/*titulo*/
+    text-align: center;
+}
+
+.umidade {
+    font-size: 20px; /*Numero em °C*/
     text-align: center;
 }
 
