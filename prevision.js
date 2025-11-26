@@ -18,8 +18,8 @@ async function ver_previsao (cidade_prev){
         `<div>  
         <h5 class="descricao">Previsao para:</h5>
         <p>${dados.city.name}</p>
-        <p>${dados.list[0].main.temp.toFixed(0)} °C </p>
         <p>Dia: ${dataFormatada}</p>
+        <p>${dados.list[0].main.temp.toFixed(0)} °C </p>
         <p>Ventos de até ${dados.list[0].wind.speed.toFixed(0)} Km h</p>
         <a href="index.html"><i class="bi bi-arrow-left-circle-fill"></i></a>
         </div>`
