@@ -27,29 +27,7 @@ async function ver_previsao (cidade_prev){
         document.getElementById("city").value = "";
 
         //
-humidity
-: 
-65
-pressure
-: 
-1010
-sea_level
-: 
-1010
-temp
-: 
-19.15
-temp_kf
-: 
--0.72
-temp_max
-: 
-19.87
-temp_min
-: 
-19.15
 
-//
     });
 
 }
