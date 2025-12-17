@@ -22,7 +22,7 @@ body {
     .container h2 {
     text-align: center;
     margin-top:5px;
-    margin-bottom: 8px;
+    margin-bottom: 80px 20px auto;
     color: #ffffff;
     font-size: 1.8em;
 }
@@ -36,14 +36,16 @@ body {
     border: 0;
     background-color: #ffffff;
     color: #000;
-    box-shadow: 4px 4px;
+    box-shadow: 4px 4px 4px ;
 
 
 }
 
 .container input[type="text"]::placeholder{
     color: #5e5e5e;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 600;
+
 
 }
 
@@ -83,7 +85,7 @@ body {
     margin-left: 4px;
     background: #ffffff;
     color: #000;
-    box-shadow: 5px;
+    box-shadow: 4px 4px 4px;
 }
 
 .container button:hover{
@@ -92,7 +94,15 @@ body {
 
 i{
     font-size: 18px;
+    margin-left: 10px;
 }
+
+.container #sol {
+    font-size: 30px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
 
 p{
     color: #ffffff;
@@ -123,18 +133,16 @@ p{
 .sub-p {
     font-size: 11px;
     color: #ffffff;
-    margin-bottom: 50px;
-    line-height: 10px;
+    margin-bottom: 80px;
 }
 
 
 .tempo {
-    font-size: 13px;
+    font-size: 15px;
     color:  #ffffff;
     text-align: center;
     display: flex;
-    align-items: center;
-    gap: 2px;
+    margin: auto;
 }
 
 .tempe{
