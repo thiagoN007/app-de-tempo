@@ -16,8 +16,8 @@ async function ver_previsao (cidade_prev){
         const dataFormatada = data.toLocaleDateString('pt-BR');
         document.getElementById("mostrar-prev").innerHTML = 
         `
-        <h5 class="descricao">Previsao para:</h5>
         <div>  
+        <h5 class="descricao">Previsao para:</h5>
         <p>${dados.city.name}</p>
         <p>Dia: ${dataFormatada}</p>
         <p>${dados.list[0].main.temp.toFixed(0)} °C </p>

@@ -81,10 +81,6 @@ p {
     box-shadow: 4px 4px #414141;
 }
 
-.descricao {
-    margin-top: 20px;
-    margin-bottom: -220px;
-}
 
 h5 {
     text-align: center;
@@ -209,7 +205,7 @@ h5 {
 .descricao {
     color: #4b4848;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 a{
