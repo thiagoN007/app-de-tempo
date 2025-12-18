@@ -15,8 +15,9 @@ async function ver_previsao (cidade_prev){
         const data = new Date(dados.list[1].dt_txt);
         const dataFormatada = data.toLocaleDateString('pt-BR');
         document.getElementById("mostrar-prev").innerHTML = 
-        `<div>  
+        `
         <h5 class="descricao">Previsao para:</h5>
+        <div>  
         <p>${dados.city.name}</p>
         <p>Dia: ${dataFormatada}</p>
         <p>${dados.list[0].main.temp.toFixed(0)} °C </p>
@@ -32,6 +33,9 @@ async function ver_previsao (cidade_prev){
 
 }
 
+
+//sys:country
+
 window.onload = function () {
-        ver_previsao("Teresina");
+        ver_previsao("uniao");
 }

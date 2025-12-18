@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #1757bc;
+    background-color: #212a3a;
     overflow: hidden;
 }
 
@@ -55,7 +55,7 @@ body{
     background-color: #ffffff;
     color: #414141;
     text-transform: capitalize;
-    box-shadow: 4px 4px;
+    box-shadow: 4px 4px #414141;
 }
 
 .container input[type="text"]::placeholder{
@@ -95,7 +95,7 @@ body{
     margin-right: 1px;
     background: #ffffff;
     color: #000000;
-    box-shadow: 4px 4px;
+    box-shadow: 4px 4px #414141;
 }
 
 .container button:hover{
@@ -194,7 +194,7 @@ i {
 
 .bi-arrow-right-circle-fill{
     font-size: 21px;
-    color: #1757bc;
+    color: #212a3a;
 }
 
 .dados .btn-prev {
@@ -202,7 +202,7 @@ i {
     background: #ffffff;
     padding: 10px;
     border-radius: 20px;
-    color: #1757bc;
+    color: #212a3a;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -216,7 +216,7 @@ i {
 
 .dados .btn-prev a {
     text-decoration: none;
-    color: #1757bc;
+    color: #212a3a;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }

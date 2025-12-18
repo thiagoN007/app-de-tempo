@@ -1,32 +1,26 @@
 {
-  "background_color": "#1757bc",
+  "background_color": "#212a3a;",
   "dir": "ltr",
   "display": "standalone",
   "name": "Tempo agora",
-  "orientation": "natural",
+  "orientation": "any",
   "scope": "/",
-  "short_name": "Tempo Agora",
+  "short_name": "",
   "start_url": "/",
-  "theme_color": "#1757bc",
+  "theme_color": "#212a3a;",
   "icons": [
     {
-      "src": "images/logo.jpg",
-      "type": "image/png",
-      "sizes": "192x192",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "images/logo.jpg",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "screenshot.jpg",
-      "sizes": "1280x720",
-      "type": "image/jpg",
-      "platform": "wide"
+      "src": "https://tempoagr.netlify.app/imagens/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "1024x1024",
+      "isSquare": true,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 1024,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
     }
   ],
   "id": "Tempo agora",
