@@ -212,6 +212,7 @@ i {
     cursor: pointer;
     transition:  0.3s ease;
 
+
 }
 
 .dados .btn-prev a {
@@ -219,6 +220,7 @@ i {
     color: #212a3a;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .dados .btn-prev:hover {
