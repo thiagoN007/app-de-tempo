@@ -13,7 +13,8 @@
       "src": "images/logo.jpg",
       "type": "image/png",
       "sizes": "192x192",
-      "purpose": "any maskable"
+      "purpose": "any maskable",
+      "theme_color": "#212a3a"
     },
     {
       "src": "images/logo.jpg",
