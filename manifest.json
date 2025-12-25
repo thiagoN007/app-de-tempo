@@ -3,9 +3,9 @@
   "dir": "ltr",
   "display": "standalone",
   "name": "Tempo agora",
-  "orientation": "portrait",
+  "orientation": "landscape",
   "scope": "/",
-  "short_name": "TempoAgora",
+  "short_name": "Tempo Agora",
   "start_url": "/",
   "theme_color": "#212a3a",
   "icons": [
